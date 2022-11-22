@@ -1,4 +1,5 @@
 import SlideShow from './SlideShow.js';
+import FAQ from './FAQ.js';
 
 function App() {
   return (
@@ -21,12 +22,15 @@ function App() {
           <SlideShow />
         </section>
         <div className="flex flex-col mt-4">
-
-
           <p className="self-center text-3xl font-bold text-center">Focus at Wil(s). <br />Optimized by science.</p>
           <h1 className="self-center mt-4 text-3xl text-center">
             focus@wil 2.0 - The Wiliverse is coming!
           </h1>
+        </div>
+
+        <div className="px-4 pb-10 mt-20 lg:px-24">
+          <h1 className="text-3xl font-bold text-center">Common questions</h1>
+          <FAQ />
         </div>
       </main>
       <footer className="flex justify-center p-5 bg-blue-400">
