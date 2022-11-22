@@ -1,8 +1,11 @@
-#Focus@Wil
+# focus@wil
 
-The premier site for focusing at Wil's!
+## About
 
-## We Need Your Help
+After a lengthy battle for the domain [focusatwil.com](https://focusatwil.com) is back! Now more invigorated and willful to build the world premiere site for focusing at Wils!  
 
-Do you know a Wil? We need your Wil.  Let Wil know about this site! We are aggressively expanding our Wil selection.
+# Contribute
+
+Obviously I'm not a "web-designer".  So if you are, and have some input please send a pull request!
+
 
