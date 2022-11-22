@@ -22,10 +22,7 @@ function App() {
           <SlideShow />
         </section>
         <div className="flex flex-col mt-4">
-          <p className="self-center text-3xl font-bold text-center">Focus at Wil(s). <br />Optimized by science.</p>
-          <h1 className="self-center mt-4 text-3xl text-center">
-            focus@wil 2.0 - The Wiliverse is coming!
-          </h1>
+          <p className="self-center text-3xl font-bold text-center">Focus at Wil. <br />Optimized by science.</p>
         </div>
 
         <div className="px-4 pb-10 mt-20 lg:px-24">

@@ -19,6 +19,9 @@ const slideImages = [
     url: require('./images/prince-will.webp'),
   },
   {
+    url: require('./images/wil-ball.jpg'),
+  },
+  {
     url: require('./images/wil-poet.png'),
   },
   {

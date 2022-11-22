@@ -1,7 +1,7 @@
 const faqs = [
   {
     question: 'How is it scientifically tested?',
-    answer: <p>We've worked with highly regard trained Wil observers since the beginning of our site. <br /><br /> Essentially we have tested every possible variation of Wil to other types of Wils to and measure the effect of on the brain, heart-rate, and tracked alongside personal reportings to ensure our hypothesis of can validated.</p>
+    answer: <p>We've worked with highly regard trained Wil observers since the beginning of our site. <br /><br /> Essentially we have tested every possible variation of Wil to other types of Wils to and measure the effect of on the brain, heart-rate, and tracked alongside personal reportings to ensure our hypothesis can validated.</p>
   },
   {
     question: 'How long does it take to work?',
