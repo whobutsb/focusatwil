@@ -23,8 +23,8 @@ function SlideShow() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-full max-w-3xl overflow-hidden rounded-lg">
-        <img src={shuffled[index]} alt={`slide-${index}`} className="w-full h-64 sm:h-96 object-cover" />
+      <div className="w-full max-w-3xl  rounded-lg">
+        <img src={shuffled[index]} alt={`slide-${index}`} className="w-full h-64 sm:h-96 object-contain" />
       </div>
     </div>
   )
