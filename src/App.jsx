@@ -1,5 +1,5 @@
-import SlideShow from './SlideShow.js';
-import FAQ from './FAQ.js';
+import SlideShow from './SlideShow.jsx';
+import FAQ from './FAQ.jsx';
 
 function App() {
   return (
