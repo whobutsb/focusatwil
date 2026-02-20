@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.crimson-font {
-    font-family: 'Crimson Text', serif;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-gray-100 bg-navy-900;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-6 lg:px-12;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-amber-600;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }

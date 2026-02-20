@@ -1,44 +1,23 @@
-import SlideShow from './SlideShow.jsx';
-import FAQ from './FAQ.jsx';
+import { Routes, Route } from 'react-router-dom'
+import Layout from './Layout.jsx'
+import HomePage from './HomePage.jsx'
+import About from './pages/About.jsx'
+import Careers from './pages/Careers.jsx'
+import Privacy from './pages/Privacy.jsx'
+import Terms from './pages/Terms.jsx'
 
 function App() {
   return (
-    <div className="flex flex-col justify-between h-screen bg-gray-100">
-      <header className="sticky top-0 z-30 w-full px-5 py-4 bg-gray-200 shadow-xl">
-
-        <div className="flex items-center mx-auto">
-          <h1 className="mr-5 font-serif text-5xl font-bold text-orange-500 crimson-font">
-            focus@wil
-          </h1>
-          <div className="flex items-center text-xl hover:underline space-x-1">
-            {/* <a href="#"> */}
-            {/*   How it Works */}
-            {/* </a> */}
-          </div>
-        </div>
-      </header>
-      <main className="mb-auto bg-gray-100">
-        <section className="w-full p-5">
-          <SlideShow />
-        </section>
-        <div className="flex flex-col mt-4">
-          <p className="self-center text-3xl font-bold text-center">Focus at Wil. <br />Optimized by science.</p>
-        </div>
-
-        <div className="px-4 pb-10 mt-20 lg:px-24">
-          <h1 className="text-3xl font-bold text-center">Common questions</h1>
-          <FAQ />
-        </div>
-      </main>
-      <footer className="flex justify-center p-5 bg-blue-400">
-        <div>
-          Help build the <a className="underline"href="https://github.com/whobutsb/focusatwil">Wiliverse</a>
-        </div>
-      </footer>
-    </div>
-  );
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="about" element={<About />} />
+        <Route path="careers" element={<Careers />} />
+        <Route path="privacy" element={<Privacy />} />
+        <Route path="terms" element={<Terms />} />
+      </Route>
+    </Routes>
+  )
 }
 
-export default App;
-
-
+export default App
